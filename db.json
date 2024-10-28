@@ -9,7 +9,7 @@
     },
     { 
       "id": "2", 
-      "name": "Air Jordan 1 High Zoom CMFT Tropical Twist", 
+      "name": "Air Jordan 1 High Zoom CMFT", 
       "description": "Tênis Air Jordan", 
       "image": "images/products/air-jordan-1-mid-bright-citrus-1-1000-1.png", 
       "price": 949 
@@ -23,14 +23,14 @@
     },
     { 
       "id": "4", 
-      "name": "Air Jordan 1 Mid GS 'Light Smoke Grey'", 
+      "name": "Air Jordan 1 Mid GS 'Light '", 
       "description": "Tênis Air Jordan", 
       "image": "images/products/air-jordan-1-mid-grey-camo-1-1000-1.png", 
       "price": 849 
     },
     { 
       "id": "5", 
-      "name": "Air Jordan 1 Mid SE Bright Citrus", 
+      "name": "Air Jordan 1 Mid SE Bright ", 
       "description": "Tênis Air Jordan", 
       "image": "images/products/air-jordan-1-mid-light-smoke-grey-gs-1-1000.png", 
       "price": 800 
