@@ -1,17 +1,23 @@
-<div class="w-full flex flex-col gap-2 text-xl bg-gray-100 p-3 rounded-md shadow-lg">
+<div
+  data-aos="fade-up"
+  data-aos-duration="3000"
+  class="w-full flex flex-col gap-2 text-xl bg-gray-100 p-3 rounded-md shadow-lg"
+>
   <img
     src="{{ product().image }}"
     alt="{{ product().name }}"
     class="bg-gray-300 w-full object-cover rounded-md"
   />
-  <h3 class="font-medium">{{ product().name }}</h3>
+  <h3 class="font-medium text-sm">{{ product().name }}</h3>
   <p class="text-blue-500 text-sm">{{ product().description }}</p>
 
   <div class="flex justify-between items-center">
     <span class="font-semibold text-lg">{{ formattedPrice() }}</span>
     <button
       mat-icon-button
-      [className]="'flex justify-center items-center bg-blue-500 text-white rounded-md p-2 hover:bg-blue-700 transition-all'"
+      [className]="
+        'flex justify-center items-center bg-blue-500 text-white rounded-md p-2 hover:bg-blue-700 transition-all'
+      "
     >
       <mat-icon>shopping_cart</mat-icon>
     </button>
